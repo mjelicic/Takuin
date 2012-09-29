@@ -21,6 +21,7 @@
 		2E06B9FD16175997005577D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E06B9DE16175997005577D3 /* Foundation.framework */; };
 		2E06BA0516175997005577D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E06BA0316175997005577D3 /* InfoPlist.strings */; };
 		2E06BA0816175997005577D3 /* TakuinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06BA0716175997005577D3 /* TakuinTests.m */; };
+		2E06BA1216175CA3005577D3 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E06BA1116175CA3005577D3 /* AppIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		2E06BA0416175997005577D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2E06BA0616175997005577D3 /* TakuinTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakuinTests.h; sourceTree = "<group>"; };
 		2E06BA0716175997005577D3 /* TakuinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakuinTests.m; sourceTree = "<group>"; };
+		2E06BA1116175CA3005577D3 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon.png; path = ../AppIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		2E06B9E216175997005577D3 /* Takuin */ = {
 			isa = PBXGroup;
 			children = (
+				2E06BA1316175CBD005577D3 /* Resources */,
 				2E06B9EB16175997005577D3 /* AppDelegate.h */,
 				2E06B9EC16175997005577D3 /* AppDelegate.m */,
 				2E06B9E316175997005577D3 /* Supporting Files */,
@@ -150,6 +153,14 @@
 				2E06BA0316175997005577D3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E06BA1316175CBD005577D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E06BA1116175CA3005577D3 /* AppIcon.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +238,7 @@
 				2E06B9EF16175997005577D3 /* Default.png in Resources */,
 				2E06B9F116175997005577D3 /* Default@2x.png in Resources */,
 				2E06B9F316175997005577D3 /* Default-568h@2x.png in Resources */,
+				2E06BA1216175CA3005577D3 /* AppIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
