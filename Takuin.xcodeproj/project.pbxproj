@@ -22,6 +22,10 @@
 		2E06BA0516175997005577D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E06BA0316175997005577D3 /* InfoPlist.strings */; };
 		2E06BA0816175997005577D3 /* TakuinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06BA0716175997005577D3 /* TakuinTests.m */; };
 		2E06BA1216175CA3005577D3 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E06BA1116175CA3005577D3 /* AppIcon.png */; };
+		2E06BA1A16176B77005577D3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E06BA1916176B77005577D3 /* MainStoryboard.storyboard */; };
+		2E06BA1B16176B77005577D3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E06BA1916176B77005577D3 /* MainStoryboard.storyboard */; };
+		2E06BA1F16176DB1005577D3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06BA1E16176DB1005577D3 /* MainViewController.m */; };
+		2E06BA2016176DB1005577D3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06BA1E16176DB1005577D3 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,9 @@
 		2E06BA0616175997005577D3 /* TakuinTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakuinTests.h; sourceTree = "<group>"; };
 		2E06BA0716175997005577D3 /* TakuinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakuinTests.m; sourceTree = "<group>"; };
 		2E06BA1116175CA3005577D3 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon.png; path = ../AppIcon.png; sourceTree = "<group>"; };
+		2E06BA1916176B77005577D3 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2E06BA1D16176DB1005577D3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2E06BA1E16176DB1005577D3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +125,9 @@
 				2E06B9EB16175997005577D3 /* AppDelegate.h */,
 				2E06B9EC16175997005577D3 /* AppDelegate.m */,
 				2E06B9E316175997005577D3 /* Supporting Files */,
+				2E06BA1916176B77005577D3 /* MainStoryboard.storyboard */,
+				2E06BA1D16176DB1005577D3 /* MainViewController.h */,
+				2E06BA1E16176DB1005577D3 /* MainViewController.m */,
 			);
 			path = Takuin;
 			sourceTree = "<group>";
@@ -239,6 +249,7 @@
 				2E06B9F116175997005577D3 /* Default@2x.png in Resources */,
 				2E06B9F316175997005577D3 /* Default-568h@2x.png in Resources */,
 				2E06BA1216175CA3005577D3 /* AppIcon.png in Resources */,
+				2E06BA1A16176B77005577D3 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E06BA0516175997005577D3 /* InfoPlist.strings in Resources */,
+				2E06BA1B16176B77005577D3 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +287,7 @@
 			files = (
 				2E06B9E916175997005577D3 /* main.m in Sources */,
 				2E06B9ED16175997005577D3 /* AppDelegate.m in Sources */,
+				2E06BA1F16176DB1005577D3 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E06BA0816175997005577D3 /* TakuinTests.m in Sources */,
+				2E06BA2016176DB1005577D3 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +454,7 @@
 				2E06BA0D16175997005577D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E06BA0E16175997005577D3 /* Build configuration list for PBXNativeTarget "TakuinTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +463,7 @@
 				2E06BA1016175997005577D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
